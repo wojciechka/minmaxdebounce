@@ -1,6 +1,6 @@
 /// <reference path="../node_modules/@types/node/index.d.ts" />
 
-import { MinMaxDebounceCallback, MinMaxDebounceEvent } from "../min_max_debounce";
+import { MinMaxDebounceCallback, MinMaxDebounceEvent } from "../index";
 
 export function sleep(ms: number): Promise<void> {
   return new Promise<void>((resolve) => {

@@ -3,11 +3,13 @@
         "module": "commonjs",
         "target": "es6",
         "noImplicitAny": false,
-        "sourceMap": false
+        "sourceMap": false,
+        "declaration": true
     },
     "compileonSave": true,
     "filesGlob": [
         "**/*.ts",
+        "!**/*.d.ts",
         "!node_modules/**",
         "!typings/**",
         "!lib/**"
@@ -16,9 +18,7 @@
         "rewriteTsconfig": true
     },
     "files": [
-        "cli_test.ts",
         "index.ts",
-        "min_max_debounce.ts",
         "test/helpers.ts",
         "test/maximum.ts",
         "test/minimum_maximum.ts",

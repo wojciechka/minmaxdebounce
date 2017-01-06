@@ -1,4 +1,4 @@
-import { MinMaxDebounce } from "../min_max_debounce";
+import { MinMaxDebounce } from "../index";
 
 import { sleep, retrieveCallbacks } from "./helpers";
 
