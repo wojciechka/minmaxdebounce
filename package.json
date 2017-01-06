@@ -1,12 +1,12 @@
 {
   "name": "minmaxdebounce",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "dependencies": {},
   "scripts": {
-    "build": "tsc",
-    "prepublish": "tsc"
+    "build": "tsc --declaration",
+    "prepublish": "tsc --declaration"
   },
   "devDependencies": {
     "@types/chai": "^3.4.34",
